@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="vieport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Austin Chiwambo</title>
+    <link rel="stylesheet" href="portfoliostyle.css">
+    <script src="https://kit.fontawesome.com/9290a9d54f.js" crossorigin="anonymous"></script>
+    
+
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-x" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openwindow()"></i>
+            
+        </nav>
+        <div class="header-text">
+            <p>Undergraduate student</p>
+            <h1>Hi I'm <span>Austin</span><br> Chiwambo</h1>
+            
+            
+        </div>
+    </div>
+</div>
+<!------------about section starts here---------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col1">
+                <img src="">
+            </div>
+            <div class="about-col2">
+                <h1 class="subtitle">About me</h1>
+                <p>I am an undergraduate computer science student at Richmond The American international university with three years experience in python and object oriented programming as well as one year experience in html, css and javascript in which i have developed an american football game using tkinter and this portfolio page and i hope to graduate in 2026</p>
+                <div class="tabtitles">
+                    <p class="tablinks activelinks" onclick="opentab('Skills')">Skills</p>
+                    <p class="tablinks" onclick="opentab('Experience')">Experience</p>
+                    <p class="tablinks" onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tabcontents activetab" id="Skills">
+                    <ul>
+                        <li><span>python</span><br>minigame development and object oriented programming using python</li>
+                        <li><span>Web Development</span><br>Website building using html, css and java script</li>
+                        <li><span>java</span><br>I am currently learning the Java programming language</li>
+                        <li><span>transferable skills</span><br>strong communication, problem solving and critical thinking</li>
+
+                        
+                    </ul>
+                </div>
+                <div class="tabcontents" id="Experience">
+                    <ul>
+                        <li><span>none</span><br></li>
+                        <li><span></span><br></li>
+                        <li><span></span><br></li>
+
+                        
+                    </ul>
+                </div>
+                <div class="tabcontents" id="Education">
+                    <ul>
+                        <li><span>2021</span><br>High school GCSE's</li>
+                        <li><span>2023</span><br>High school A-levels B in economics, C computer science and D physics</li>
+                        <li><span>2026</span><br>Currently pursuing a Bachelors degree in computer science at Richmond The American University London</li>
+
+                        
+                    </ul>
+                </div>
+            </div>
+                   
+            
+        </div>
+
+    </div>
+</div>
+
+<!----------------services-------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="serviceslist">
+            <div>
+                <i class="fa-regular fa-window-restore"></i>
+                <h2>Web Development</h2>
+                <p>Via the use of html, css and javascript I can create websites that make use of transitions and drop down menu's</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python programming</h2>
+                <p>Using python I can code small games which make use of functions, loops and collision detectors as well as a gui and I can also code object oriented programming</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-layer-group"></i>
+                <h2>full stack development</h2>
+                <p>I am currently working on a full stack project which makes use of html, css, javascript and react</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Java object oriented programming</h2>
+                <p>I am currently completing a class on java and object oriented programming</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!----------------portfolio/project-->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Portfolio/Projects</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="images/footballgame.png">
+                <div class="layer">
+                    <h3>American football game </h3> 
+                    <p>Using python's TKinter I made use of functions, loops and if statements as well as labels to develop an american football game in which the user can move a player and throw the ball using the space bar to other moving ai controlled players to score points as a countdown runs.</p>
+                    <a href="#"><i class="fa-regular fa-football"></i></a>
+                    
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="images/ecom.png">
+                <div class="layer">
+                    <h3>E-commerce store </h3> 
+                    <p> Using HTML, CSS and Javascript i developed an e-commerce store which allows users to view products as well as including a scroller/slideshow to display the most popular clothing and then a feature to add and remove items from the cart and the site is then connected on the backend to stripe for payments</p>
+                    <a href="#"> <div class="spinner"></div></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/comingsoon.png">
+                <div class="layer">
+                    <h3>Coming Soon</h3> 
+                    <p>  coming soon</p>
+                    <a href="#"> <div class="spinner"></div></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+   
+
+
+        
+    </div>
+    
+</div>
+<!------------contact-->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contactleft">
+                <h1 class="subtitle">Contact Me</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>austinchiwambo@outlook.com</p>
+                <p> <i class="fa-solid fa-phone"></i>+44 07368205042</p>
+                <div class="socialmediaicons">
+                    <a href="https://www.linkedin.com/in/austin-chiwambo-0a8388288/"><i class="fa-brands fa-linkedin"></i></a>
+                    
+                </div>
+                <a href="images/cvsoftwareengineerfinalupdate2.pdf" download class="btn btn2">Download My CV</a>
+
+            </div>
+            <div class="contactright">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+                <span id="msg"></span>
+                
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Austin Chiwambo </p>
+    </div>
+</div>
+<script>
+    
+    var tablinks = document.getElementsByClassName("tablinks");
+    var tabcontents = document.getElementsByClassName("tabcontents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("activelinks");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("activetab");
+        }
+        event.currentTarget.classList.add("activelinks");
+        document.getElementById(tabname).classList.add("activetab");
+        
+    }
+    
+    
+</script>
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openwindow(){
+        sidemeu.style.right="0"
+
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px"
+        
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzVNzudfn43bZer3GWfwq3Bb-B8ReWYrXxCi3CYliaz2mmYFFGfvqvhIXRP7Mx2VHMD/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent thank you for submitting"
+            setTimeout(function(){
+                msg.innerHTML = ""
+                
+            }, 5000 );
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
